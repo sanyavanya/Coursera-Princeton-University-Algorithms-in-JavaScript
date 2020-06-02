@@ -52,12 +52,10 @@ const quickselect = (a, k) => {
 		else return [k, a[k]];
 	}
 	return [k, a[k]];
-
 }
 
 
 let a = createArray(20, 9);
-// let a = [3,-5,2,4,9,-1,-1,0,8,-7,2];
 console.log('-----');
 console.log(a);
 
@@ -69,6 +67,3 @@ console.log('-----');
 console.log(quickselect(a, 5));
 quicksort(a, 0, a.length-1);
 console.log(a);
-
-// let i = 0, lo =5;
-// while (++i < lo) console.log(i);
